@@ -1,0 +1,130 @@
+{
+  "type": "dark",
+  "name": "italic",
+  "include": "./_ui.json",
+  "tokenColors": [
+    {
+      "name": "Normalize font style of certain Components",
+      "scope": [
+        "assignment.coffee",
+        "entity.name.tag.custom",
+        "entity.other.attribute-name",
+        "italic",
+        "keyword.control",
+        "keyword.operator.arithmetic",
+        "keyword.operator.assignment",
+        "keyword.operator.bitwise",
+        "keyword.operator.comparison",
+        "keyword.operator.increment",
+        "keyword.operator.logical",
+        "keyword.operator.operator",
+        "keyword.operator.or.regexp",
+        "keyword.operator.ternary",
+        "keyword.operator.type.annotation",
+        "keyword.other.haskell",
+        "keyword",
+        "language",
+        "meta.export.js variable.other",
+        "meta.export.ts meta.block.ts variable.other.readwrite.alias.ts",
+        "meta.export.tsx meta.block.tsx variable.other.readwrite.alias.tsx",
+        "meta.import.js variable.other",
+        "meta.import.ts meta.block.ts variable.other.readwrite.alias.ts",
+        "meta.import.tsx meta.block.tsx variable.other.readwrite.alias.tsx",
+        "meta.property-list.css meta.property-value.css variable.other.less",
+        "meta.property-list.sass variable.sass",
+        "meta.property-list.scss variable.scss",
+        "meta.var.expr storage.type",
+        "modifier",
+        "punctuation.definintion.string",
+        "punctuation.section.embedded.js",
+        "punctuation.section.embedded",
+        "punctuation",
+        "quote",
+        "source.js.jsx keyword.control.flow.js",
+        "storage",
+        "string",
+        "support.constant.math",
+        "support.function.basic_functions",
+        "support.function.basic_functions",
+        "support.type.object.module",
+        "support.type.primitive",
+        "support.type.property-name.json",
+        "support.type.property.css",
+        "text.html.markdown",
+        "this",
+        "type .function",
+        "type.function",
+        "variable.assignment.coffee"
+      ],
+      "settings": {
+        "fontStyle": "normal"
+      }
+    },
+    {
+      "name": "Italicsify certain tokens",
+      "scope": [
+        "entity.name.function",
+        "entity.name.function.ts",
+        "entity.name.function.tsx",
+        "comment",
+        "constant.other.haskell",
+        "meta.object-literal.key",
+        "variable.other.property",
+        "variable.other.object.property"
+      ],
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Bold certain tokens",
+      "scope": [
+        "storage.type.haskell",
+        "storage.type.class",
+        "entity.name.type",
+        "entity.name.type.ts",
+        "meta.class.js",
+        "support.class"
+      ],
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Bold Underline certain tokens",
+      "scope": [
+        "entity.name.type.class"
+      ],
+      "settings": {
+        "fontStyle": "bold underline"
+      }
+    },
+    {
+      "name": "Italic Underline certain tokens",
+      "scope": [
+        "meta.definition.function",
+        "meta.definition.function entity.name.function"
+      ],
+      "settings": {
+        "fontStyle": "italic underline"
+      }
+    },
+    {
+      "name": "Bold Italic certain tokens",
+      "scope": [
+        "type.var",
+        "meta.parameter",
+        "variable.parameter",
+        "variable.other.readwrite",
+        "meta.parameters",
+        "parameter",
+        "variable",
+        "variable.language.this.js"
+      ],
+      "settings": {
+        "fontStyle": "bold italic"
+      }
+    }
+  ],
+  "uuid": "eda222e1-f059-4bbe-ac74-133f583c5869"
+}

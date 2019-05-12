@@ -20,15 +20,9 @@
         "keyword.operator.or.regexp",
         "punctuation.section.embedded.js",
         "punctuation.definintion.string",
-        "punctuation"
-      ],
-      "settings": {
-        "fontStyle": "normal"
-      }
-    },
-    {
-      "name": "Italicsify certain tokens",
-      "scope": [
+        "punctuation",
+        "meta.var.expr storage.type",
+        "support.type.property-name.json",
         "meta.import.ts meta.block.ts variable.other.readwrite.alias.ts",
         "meta.import.tsx meta.block.tsx variable.other.readwrite.alias.tsx",
         "meta.import.js variable.other",
@@ -51,7 +45,6 @@
         "entity.name.type.ts",
         "support.constant.math",
         "meta.object-literal.key",
-        "meta.var.expr storage.type",
         "text.html.markdown",
         "parameter",
         "string",
@@ -73,7 +66,34 @@
         "comment"
       ],
       "settings": {
+        "fontStyle": "normal"
+      }
+    },
+    {
+      "name": "Italicsify certain tokens",
+      "scope": [
+        "variable"
+      ],
+      "settings": {
         "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Bold certain tokens",
+      "scope": [
+        "storage.type.haskell"
+      ],
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Bold Italic certain tokens",
+      "scope": [
+        "entity.name.function"
+      ],
+      "settings": {
+        "fontStyle": "bold italic"
       }
     }
   ],
